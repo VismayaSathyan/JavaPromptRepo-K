@@ -8,7 +8,7 @@ public class Palindrome {
         Scanner in = new Scanner(System.in);
         System.out.println("Enter a Word: ");
         String word = in.nextLine();
-        String revWord = "";
+        String revWord ="";
         char ch;
         for (int i=0; i<word.length(); i++){
             ch = word.charAt(i);
