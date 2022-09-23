@@ -2,24 +2,25 @@ package com.vismaya.ArraySearch;
 
 public class LinearSearchMain {
     public static void main(String[] args) {
-        int[] arr = {};
-        int item  = 9;
-        int ans = linearSearch(arr, item);
-        System.out.println(ans);
+        int[] arr = {1,5,7,9,0,-1, 2, 5};
+        int item  = 1000;
+         linearSearch(arr, item);
+        //System.out.println(ans);
     }
-    static int linearSearch(int[] arr, int item){
+    static boolean linearSearch(int[] arr, int item){
 
         if(arr.length == 0){
-            System.out.print("The array is empty so: ");
-            return -1;
+            System.out.print("The array is empty");
+            return false;
         }
         for(int i=0; i<arr.length; i++) {
             int element = arr[i];
             if (element == item) {
-                return i;
+                System.out.println("item is found at index: " +i);
+                return true;
             }
         }
-
-        return -1;
+        System.out.println("Item is not found");
+        return false;
     }
 }
