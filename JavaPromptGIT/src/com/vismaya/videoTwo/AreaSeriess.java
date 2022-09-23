@@ -1,6 +1,6 @@
 package com.vismaya.videoTwo;
 
-public class AreaSeries {
+public class AreaSeriess {
     public static void main(String[] args) {
         System.out.println("Circle: " +circle(3));
         System.out.println("Triangle: "+ triangle(2, 5));
