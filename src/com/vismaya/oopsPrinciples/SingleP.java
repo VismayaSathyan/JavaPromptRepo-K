@@ -7,7 +7,9 @@ public class SingleP {
     String school;
     String section;
     int grade;
-
+        void fun(){
+            System.out.println("Hey");
+        }
 //    public SingleP(int age, int height, int weight, String school, String section, int grade) {
 //        this.age = age;
 //        this.height = height;

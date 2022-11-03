@@ -6,6 +6,10 @@ public class SingleChild extends SingleP {
     public String publicAccessModi;
     private String privateAccessModi;
     //private int num;
+
+//    void fun(){
+//        System.out.println("Am i getting overridden?");
+//    }
     @Override
     public String toString() {
         //System.out.println("Hurray");
