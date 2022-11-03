@@ -11,13 +11,16 @@ public class Main {
 //        car.stop();
 
         NewCar car = new NewCar();
-        car.start();
-        car.upgradeEngine();
-        car.start();
-        car.stop();
-        car.reset();
-        car.stop();
+        NewCar carOne = new NewCar(new PowerEngine());
+        carOne.start();
+        carOne.upgradeEngine();
+        carOne.start();
+        carOne.stop();
+        carOne.reset();
+        carOne.stop();
         car.startMusic();
+
+
 //        car.electricEngine();
 //        System.out.println("");
 //        car.powerEngine();
@@ -25,5 +28,10 @@ public class Main {
 //        car.mediaPlayer();
 
 
+//        NewCar cardemo = new NewCar();
+//        NewCar cardemo2 = new NewCar(new PowerEngine());
+//        carOne.start();
+//        carOne.stop();
+//        car.startMusic();
     }
 }
